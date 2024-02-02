@@ -206,5 +206,38 @@ else:
 #     print(item)
 
 
+#while loop
+# i = 1
+# while (i<=100): 
+#     i = i + 1
+#     if i == 78:
+#         # break
+#         continue
+#     print(i)
+
+### FUNCTIONS ###
+
+# def greet():
+#     print("Good Morning Sir!")
+#     print("Good Morning Maam!")
+#     print("Good Morning Teacher!")
+
+# greet()
+
+# def sum(a, b):
+#     return a + b 
+
+# d = sum(34, 45)
+# print(d)
 
 
+### OOPs ###
+
+class Employee:
+    def __init__(self, gname, gsalary):
+        self.name = gname
+        self.salary = gsalary
+
+abrar = Employee("Abrar", 100)
+print(abrar.name)
+print(abrar.salary)
